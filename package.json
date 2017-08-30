@@ -1,0 +1,30 @@
+{
+  "name": "angular2_mean_stack_app",
+  "version": "1.0.0",
+  "description": "MEAN Stack Auth App ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "express": "*",
+    "mongoose": "*",
+    "bcrypt": "*",
+    "cors": "*",
+    "jsonwebtoken": "*",
+    "body-parser": "*",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminfloyd/Angular2_Mean_Stack_App.git"
+  },
+  "author": "Benjamin Floyd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benjaminfloyd/Angular2_Mean_Stack_App/issues"
+  },
+  "homepage": "https://github.com/benjaminfloyd/Angular2_Mean_Stack_App#readme"
+}
