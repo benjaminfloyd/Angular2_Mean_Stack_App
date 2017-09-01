@@ -16,7 +16,7 @@
     "jsonwebtoken": "*",
     "mongoose": "*",
     "passport": "*",
-    "passport-jwt": "*"
+    "passport-jwt": "^3.0.0"
   },
   "repository": {
     "type": "git",
