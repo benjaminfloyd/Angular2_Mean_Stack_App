@@ -11,6 +11,7 @@ import { RegisterComponent } from './Components/register/register.component';
 import { HomeComponent } from './Components/home/home.component';
 import { DashboardComponent } from './Components/dashboard/dashboard.component';
 import { ProfileComponent } from './Components/profile/profile.component';
+
 import { RouterLinkActive } from '@angular/router';
 import {ValidateService} from './services/validate.service';
 import {AuthService} from './services/auth.service';
