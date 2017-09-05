@@ -9,9 +9,7 @@ export class AuthService {
   user: any;
   isDev:boolean;
 
-  constructor(private http:Http) {
-    this.isDev = true; // Change to false before deployment
-  }
+  constructor(private http:Http) { }
 
   registerUser(user){
     let headers = new Headers();
@@ -52,7 +50,7 @@ export class AuthService {
   }
 
   loggedIn(){
-    return tokenNotExpired();
+    return tokenNotExpired('id_token');
   }
 
   logout(){
