@@ -23,7 +23,7 @@ const app = express();
 
 const users = require('./routes/users');
 
-// Port Number
+// Heroku Port 
 const port = process.env.PORT || 8080;
 
 // CORS 
