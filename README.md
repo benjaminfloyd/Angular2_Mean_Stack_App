@@ -1,5 +1,12 @@
 # Angular2_Mean_Stack_App
 MEAN Stack Web App Built wit Angular2 and json web tokens for authentication.
+
+- Rest API -NodeJS/Express
+- Token Generation and Authentication 
+- CORS
+- BootStrap
+- MongooseODM
+- Angular2 / Angualar CLI
  
 Installation
 
