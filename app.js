@@ -26,16 +26,16 @@ const users = require('./routes/users');
 // Port Number
 const port = process.env.PORT || 8080;
 
-// CORS Middleware
+// CORS 
 app.use(cors());
 
 // Set Static Folder
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Body Parser Middleware
+// Middleware
 app.use(bodyParser.json());
 
-// Passport Middleware
+
 app.use(passport.initialize());
 app.use(passport.session());
 

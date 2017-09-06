@@ -1,5 +1,4 @@
 const express = require('express');
-
 const router = express.Router();
 const passport = require('passport');
 const jwt = require('jsonwebtoken');
@@ -16,6 +15,7 @@ router.post('/register', (req, res, next) => {
   });
 
   User.addUser(newUser, (err, user) => {
+    console.log(user);
     if(err){
       res.json({success: false, msg:'Failed to register user'});
     } else {
@@ -34,8 +34,10 @@ router.post('/authenticate', (req, res, next) => {
     if(!user){
       return res.json({success: false, msg: 'User not found'});
     }
-
+    console.log(user);
     User.comparePassword(password, user.password, (err, isMatch) => {
+      console.log(password);
+      console.log(user.password);
       if(err) throw err;
       if(isMatch){
         const token = jwt.sign(user, config.secret, {
