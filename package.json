@@ -1,32 +1,32 @@
 {
-  "name": "angular2_mean_stack_app",
-  "version": "1.0.0",
-  "description": "MEAN Stack Auth App ",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app"
-  },
-  "dependencies": {
-    "angular-route": "^1.6.6",
-    "bcrypt": "*",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "*",
-    "cors": "*",
-    "express": "*",
-    "jsonwebtoken": "^7.4.3",
-    "mongoose": "*",
-    "passport": "^0.4.0",
-    "passport-jwt": "^3.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/benjaminfloyd/Angular2_Mean_Stack_App.git"
-  },
-  "author": "Benjamin Floyd",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/benjaminfloyd/Angular2_Mean_Stack_App/issues"
-  },
-  "homepage": "https://github.com/benjaminfloyd/Angular2_Mean_Stack_App#readme"
-}
+    "name": "angular2_mean_stack_app",
+    "version": "1.0.0",
+    "description": "MEAN Stack Auth App ",
+    "main": "app.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node app"
+    },
+    "dependencies": {
+      "angular-route": "^1.6.6",
+      "bcrypt": "*",
+      "bcryptjs": "^2.4.3",
+      "body-parser": "*",
+      "cors": "*",
+      "express": "*",
+      "jsonwebtoken": "^7.4.3",
+      "mongoose": "*",
+      "passport": "^0.4.0",
+      "passport-jwt": "^3.0.0"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/benjaminfloyd/Angular2_Mean_Stack_App.git"
+    },
+    "author": "Benjamin Floyd",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/benjaminfloyd/Angular2_Mean_Stack_App/issues"
+    },
+    "homepage": "https://github.com/benjaminfloyd/Angular2_Mean_Stack_App#readme"
+  }
