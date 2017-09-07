@@ -9,7 +9,9 @@ export class AuthService {
   user: any;
   isDev:boolean;
 
-  constructor(private http:Http) { }
+  constructor(private http:Http) { 
+    this.isDev = false;
+  }
 
   registerUser(user){
     let headers = new Headers();
